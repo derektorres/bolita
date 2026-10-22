@@ -2,5 +2,5 @@ import pytest
 from main import calcular_area_triangulo
 
 def test__area_triangulo():
-    actual_result = calcular_area_triangulo(13, 3)
+    actual_result = calcular_area_triangulo(10, 3)
     assert actual_result == pytest.approx(19.5, abs=0.01)
